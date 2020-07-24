@@ -1,5 +1,9 @@
+@import '~antd/dist/antd.css';
 .App {
   text-align: center;
+}
+.layout{
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +39,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.add {
+  display: flex;
+  align-items: center;
+}
+
+
+.site-layout .site-layout-background {
+  background: #fff;
 }
