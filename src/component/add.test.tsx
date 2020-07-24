@@ -10,6 +10,6 @@ it('checks sum function', () => {
   //   fireEvent.change(first, { target: { value: '5' } });
   //   fireEvent.change(second, { target: { value: '5' } });
   userEvent.type(first, '5');
-  userEvent.type(second, '5');
+  userEvent.type(second, '6');
   expect(output).toHaveTextContent('10');
 });
