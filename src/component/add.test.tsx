@@ -11,5 +11,5 @@ it('checks sum function', () => {
   //   fireEvent.change(second, { target: { value: '5' } });
   userEvent.type(first, '5');
   userEvent.type(second, '5');
-  expect(output).toHaveTextContent('10');
+  expect(output).toHaveTextContent('11');
 });
